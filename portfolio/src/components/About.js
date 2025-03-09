@@ -1,4 +1,6 @@
 import React from 'react';
+// Import the profile image
+import profileImage from '../assets/images/Profile.jpeg';
 
 const About = () => {
   return (
@@ -8,30 +10,32 @@ const About = () => {
         <div className="about-content">
           <div className="about-image-container">
             <img 
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHByb2ZpbGV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60" 
-              alt="Profile" 
+              src={profileImage}
+              alt="Bijay Dhungana"
               className="profile-image" 
             />
           </div>
           <div className="about-text">
-            <h3 className="about-subtitle">Frontend Developer & UI/UX Enthusiast</h3>
+            <h3 className="about-subtitle">Full Stack Developer</h3>
             <p>
-              I'm a passionate Frontend Developer with expertise in creating responsive, user-friendly websites 
-              using modern technologies like React, JavaScript, HTML, and CSS.
+            Hi, I'm Bijay Dhungana! Originally from Nepal, I now live in the Greater Cincinnati area. I'm currently pursuing a bachelor's degree in Computer Science 
+            with a minor in Computer Information Technology and Mathematics at Northern Kentucky University. I'm passionate about building smooth, user-friendly websites
+             and apps. I love solving problems through technology. I'm particularly interested in computational methods and how they enhance the 
+             efficiency and intelligence of computer systems.
             </p>
             <p>
-              With a strong background in user interface design and user experience principles, I create 
-              websites that not only look beautiful but also function seamlessly across all devices.
+              Besides this, I am a huge fan of Hip-hop. Currently my favorite artists are Kanye West, Travis Scott, and Playboi Carti. I also
+              love exploring new places and trying new cuisine.
             </p>
             <div className="skills-container">
               <h4>Technical Skills</h4>
               <div className="skills-list">
-                <span className="skill-tag">HTML5</span>
-                <span className="skill-tag">CSS3</span>
+                <span className="skill-tag">C++</span>
+                <span className="skill-tag">Python</span>
+                <span className="skill-tag">Java</span>
                 <span className="skill-tag">JavaScript</span>
                 <span className="skill-tag">React</span>
-                <span className="skill-tag">Responsive Design</span>
-                <span className="skill-tag">Git</span>
+                <span className="skill-tag">MySQL</span>
               </div>
             </div>
           </div>

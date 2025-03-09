@@ -10,17 +10,14 @@ const Homepage = () => {
             <br />
             <span className="name">Bijay Dhungana</span>
           </h1>
-          <h2 className="hero-subtitle">Full Stack Developer</h2>
+          <h3 className="hero-subtitle">Full Stack Developer</h3>
           <p className="hero-description">
-            I build beautiful, responsive websites with modern technologies
+            Passionate about building smooth, user-friendly websites and apps.
           </p>
           <div className="hero-buttons">
-            <a href="#projects" className="btn btn-primary">View My Work</a>
-            <a href="#contact" className="btn btn-secondary">Contact Me</a>
+            <a href="#projects" className="btn btn-primary">View Projects</a>
+            <a href="#contact" className="btn btn-secondary">Reach Out</a>
           </div>
-        </div>
-        <div className="hero-image-container">
-          <div className="hero-background"></div>
         </div>
       </div>
     </header>

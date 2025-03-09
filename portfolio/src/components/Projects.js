@@ -2,22 +2,22 @@ import React from 'react';
 
 const projectsData = [
   { 
-    title: 'Modern E-commerce', 
-    desc: 'A fully responsive e-commerce platform built with React and Node.js. Features include user authentication, product filtering, and cart functionality.', 
-    img: 'https://images.unsplash.com/photo-1557821552-17105176677c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80',
-    tech: ['React', 'Node.js', 'MongoDB', 'Express'] 
+    title: 'Code Editor App', 
+    desc: 'A modern code editor with syntax highlighting, auto-completion, and real-time collaboration. Built with React and Node.js, featuring a sleek dark mode interface.', 
+    img: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80',
+    tech: ['React', 'Node.js', 'Socket.io', 'CodeMirror'] 
   },
   { 
-    title: 'Portfolio Website', 
-    desc: 'A clean and modern portfolio template designed for creatives. Features smooth animations and a responsive layout.', 
-    img: 'https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1455&q=80',
-    tech: ['HTML', 'CSS', 'JavaScript', 'GSAP'] 
+    title: 'Tech Blog Platform', 
+    desc: 'A minimalist blogging platform for developers with markdown support, code snippets, and a clean reading experience. Features user authentication and commenting system.', 
+    img: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1472&q=80',
+    tech: ['TypeScript', 'React', 'MongoDB', 'Express'] 
   },
   { 
     title: 'Weather Dashboard', 
-    desc: 'A sleek weather application that provides real-time weather data and forecasts for any location. Built with modern JavaScript.', 
-    img: 'https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1365&q=80',
-    tech: ['JavaScript', 'React', 'Weather API', 'CSS'] 
+    desc: 'A sleek weather application that provides real-time weather data and forecasts. Features dark mode UI, interactive maps, and hourly predictions using advanced APIs.', 
+    img: 'https://images.unsplash.com/photo-1534088568595-a066f410bcda?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1551&q=80',
+    tech: ['JavaScript', 'React', 'Weather API', 'Chart.js'] 
   },
 ];
 
@@ -38,8 +38,8 @@ const Projects = () => {
                 ))}
               </div>
               <div className="project-links">
-                <button className="project-btn">Live Demo</button>
-                <button className="project-btn">Source Code</button>
+                <button className="project-btn">View Demo</button>
+                <button className="project-btn">GitHub</button>
               </div>
             </div>
           </div>
